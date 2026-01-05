@@ -2606,4 +2606,29 @@ p {
     padding: 10px 20px;
   }
 }
+
+/* Custom gradient and text styling */
+.gradient-text {
+  background: linear-gradient(135deg, #2A6465 0%, #5DD3D4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: block;
+  font-weight: 800;
+  margin-top: -10px;
+}
+
+.white-text {
+  color: var(--white);
+  display: block;
+  font-weight: 400;
+}
+
+.ud-hero-desc.bold-intro {
+  font-weight: 500;
+}
+
+.ud-hero-desc.intro {
+  margin-top: -15px;
+}
 /*# sourceMappingURL=ud-styles.css.map */
